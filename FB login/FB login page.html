@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+<style>
+    body{
+        background-image: url(fb.jpg);
+        background-position: 100%;
+      background-repeat: no-repeat;
+        background-attachment: fixed; 
+    background-size: 100% 100%;
+    }
+    input{
+       width:100%;
+       height: 40px;
+       margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+    }
+    button{
+        background-color: #98af99; /* Green */
+        border-radius: 10px;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+         display: inline-block;
+        font-size: 20px;
+    }
+* {
+  box-sizing: border-box;
+}
+.column1 {
+    background-image: url(loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat: no-repeatS;
+    background-position: fixed;
+  margin-top: 125px;
+  margin-left:500px;
+  float: left;
+  width: 20%;
+  
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+  opacity: 0.8;
+}
+.column2 {
+  margin-top: 125px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+  opacity: 0.8;
+}
+</style>
+</head>
+<body>
+  <form action="next.php">
+    <center>
+<div class="row" style="">
+  <div class="column1" style="background-color:white;border-radius: 50px 0px 0px 50px;">
+    
+  </div>
+  <div class="column2" style="background-image:linear-gradient(rgb(198, 210, 223),rgb(255, 255, 255));border-radius:  0px 50px 50px 0px;">
+    <p style="font-size: 30px;font-family: 'Noto Sans JP', sans-serif;">Facebook</p>
+    <input type="text" placeholder="username" id="name" name="name" />
+    <br>
+    <input type="email" placeholder="password"id="email" name="email"/>
+    <br>   
+    <button type="LOGIN" style="background-image:linear-gradient(rgb(139, 153, 150), rgb(255, 255, 255));">LOGIN</button>
+<br>
+<h4>-----OR-----</h4>
+<a href=fb2.html><h3>!---SignUP---!</h3></a>
+<br>
+  </div>
+</div>
+</center></form>
+</body>
+</html>
